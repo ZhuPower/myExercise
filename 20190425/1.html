@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">    
+    <meta content="yes" name="apple-mobile-web-app-capable">     
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">     
+    <meta content="telephone=no" name="format-detection"> 
+    <META HTTP-EQUIV="pragma" CONTENT="no-cache"> 
+    <META HTTP-EQUIV="Cache-Control" CONTENT="no-cache, must-revalidate"> 
+    <META HTTP-EQUIV="expires" CONTENT="0"> 
+    <title>联盛国贸超级购物中心</title> 
+</head>
+<body>
+
+<iframe id="sourceIframe" src="https://www.youku.com/?spm=a2h0j.10182321.panel.5~5!2~1~3~A" allowtransparency="true" frameborder="0" ></iframe>    
+<!-- <iframe id="palybox" src="http://api.bbbbbb.me/jx/?url=" allowtransparency="true" frameborder="0" scrolling="no"></iframe> -->
+</body>
+<style type="text/css">
+#sourceIframe{position: fixed; width: 100%;height: 100%;left: 0px;}
+#palybox{width: 90%; display: block;height: 500px;margin: 0px auto; display: none;}
+</style>
+<script type="text/javascript">
+    var oIframe = document.getElementById('sourceIframe');
+    var iwindow = oIframe.contentWindow;
+    var idoc = iwindow.document;
+    console.log(iwindow)
+    console.log(idoc)
+    console.log(iwindow.location.href)
+    // oIframe.onclick = function(){
+    //     console.log(this)
+    // }
+</script>
+</html>
